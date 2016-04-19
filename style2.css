@@ -1,0 +1,42 @@
+        .outerbox {
+            background-color: #555555;
+            width: 600px;
+            height: 130px;
+            margin: 10px;
+        }
+        .innerbox {
+            background-color: #cccccc;
+            width: 32%;
+            height: 118px;
+            margin: 6px 0 6px 6px;
+            display: inline-block;
+        }
+        .innerbox2 {
+            background-color: #cccccc;
+            width: 23.8%;
+            height: 100px;
+            margin: 6px 0 6px 6px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .innerbox2:nth-child(2n) {
+            height: 75px;
+        }
+
+        .innerbox3 {
+            background-color: #cccccc;
+            width: 48.6%;
+            height: 118px;
+            margin: 6px 0 6px 6px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        .innerbox3:nth-child(1) {
+            height: 35px;
+        }
+
+        body {
+            margin: 0;
+        }
