@@ -1,0 +1,43 @@
+body {
+    font-family: helvetica;
+    color: #555555;
+}
+
+#sidebar {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+#order-form {
+    display: inline-block;
+    width: 600px;
+}
+
+label {
+    display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.textdescription {
+    font-weight: bold;
+
+}
+
+.inline-label {
+    display: inline-block;
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+}
